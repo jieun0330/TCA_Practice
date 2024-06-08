@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C202AAD02C13FDC000D15D25 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C202AACF2C13FDC000D15D25 /* CounterFeature.swift */; };
+		C202AAD32C13FE2200D15D25 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = C202AAD22C13FE2200D15D25 /* ComposableArchitecture */; };
 		C28F95732C0DE9E4008E3CAA /* TCA_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F95722C0DE9E4008E3CAA /* TCA_PracticeApp.swift */; };
 		C28F95752C0DE9E5008E3CAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F95742C0DE9E5008E3CAA /* ContentView.swift */; };
 		C28F95772C0DE9E7008E3CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28F95762C0DE9E7008E3CAA /* Assets.xcassets */; };
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C202AACF2C13FDC000D15D25 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		C28F956F2C0DE9E4008E3CAA /* TCA_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28F95722C0DE9E4008E3CAA /* TCA_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_PracticeApp.swift; sourceTree = "<group>"; };
 		C28F95742C0DE9E5008E3CAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C202AAD32C13FE2200D15D25 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +102,7 @@
 				C28F95742C0DE9E5008E3CAA /* ContentView.swift */,
 				C28F95762C0DE9E7008E3CAA /* Assets.xcassets */,
 				C28F95782C0DE9E7008E3CAA /* Preview Content */,
+				C202AACF2C13FDC000D15D25 /* CounterFeature.swift */,
 			);
 			path = TCA_Practice;
 			sourceTree = "<group>";
@@ -143,6 +148,9 @@
 			dependencies = (
 			);
 			name = TCA_Practice;
+			packageProductDependencies = (
+				C202AAD22C13FE2200D15D25 /* ComposableArchitecture */,
+			);
 			productName = TCA_Practice;
 			productReference = C28F956F2C0DE9E4008E3CAA /* TCA_Practice.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,9 @@
 				Base,
 			);
 			mainGroup = C28F95662C0DE9E4008E3CAA;
+			packageReferences = (
+				C202AAD12C13FE2200D15D25 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = C28F95702C0DE9E4008E3CAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C202AAD02C13FDC000D15D25 /* CounterFeature.swift in Sources */,
 				C28F95752C0DE9E5008E3CAA /* ContentView.swift in Sources */,
 				C28F95732C0DE9E4008E3CAA /* TCA_PracticeApp.swift in Sources */,
 			);
@@ -588,6 +600,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C202AAD12C13FE2200D15D25 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C202AAD22C13FE2200D15D25 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C202AAD12C13FE2200D15D25 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C28F95672C0DE9E4008E3CAA /* Project object */;
 }
