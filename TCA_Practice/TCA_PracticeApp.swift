@@ -13,7 +13,7 @@ struct TCA_PracticeApp: App {
     
     static let store = Store(initialState: CounterFeature.State()) {
         CounterFeature()
-            ._printChanges()git
+            ._printChanges()
     }
     
     var body: some Scene {
