@@ -37,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		C202AACF2C13FDC000D15D25 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		C202AAD42C14225000D15D25 /* TCA-Practice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TCA-Practice-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C28F956F2C0DE9E4008E3CAA /* TCA_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28F95722C0DE9E4008E3CAA /* TCA_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_PracticeApp.swift; sourceTree = "<group>"; };
 		C28F95742C0DE9E5008E3CAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +99,7 @@
 		C28F95712C0DE9E4008E3CAA /* TCA_Practice */ = {
 			isa = PBXGroup;
 			children = (
+				C202AAD42C14225000D15D25 /* TCA-Practice-Info.plist */,
 				C28F95722C0DE9E4008E3CAA /* TCA_PracticeApp.swift */,
 				C28F95742C0DE9E5008E3CAA /* ContentView.swift */,
 				C28F95762C0DE9E7008E3CAA /* Assets.xcassets */,
@@ -437,6 +439,7 @@
 				DEVELOPMENT_TEAM = 8HG96SSK4A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-Practice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,6 +469,7 @@
 				DEVELOPMENT_TEAM = 8HG96SSK4A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TCA-Practice-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
